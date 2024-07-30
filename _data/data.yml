@@ -18,8 +18,8 @@ sidebar:
     timezone: America/Cancun Timezone
     citizenship: USA
     # website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    # xing: alandoe
+    linkedin: honterlin
+    # xing: honterlin
     github: honterlin
     # telegram: # add your nickname without '@' sign
     # gitlab:
@@ -66,9 +66,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Management Information Systems, Database Systems
+        university: University of Maryland, University College
+        time: 2011
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -77,9 +77,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc in Computer Science
+        university: University of Maryland, College Park
+        time: 2001
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -92,19 +92,19 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
+      - role: Cloud Solutions Developer
         time: 2015 - Present
-        company: Startup Hubs, San Francisco
+        company: Booz Allen Hamilton, Herndon, VA
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
+          Serve as Platform team lead, responsible for our government organization’s complete DevOps journey and Cloud transition.  Transitioned all applications and tools to containers.  Setup and maintained 9 separate Kubernetes clusters on bare metal on-prem and in the cloud on AWS EC2 using Docker Enterprise and subsequently Rancher RKE2.  Our custom now enjoys a DevOps CICD process, complete through to production, hosted on secure / resilient Kubernetes platforms.  
+
+Developed CICD pipelines using Jenkins and subsequently Gitlab CICD to deliver code from commit through deployment on production air gapped DoD and IC networks.  These pipelines supported automation for compile, containerization, unit tests, static code analysis, end to end testing, vulnerability scanning, and documentation generation. 
+
+Constructed a Kubernetes environment in AWS using Terraform, Rancher and Helm in 2 weeks to facilitate emergency remote development at the start of the Covid pandemic.
+
+Used custom and community Helm charts with ArgoCD to implement GitOps.
+Developed custom Dockerfiles to build, update, and secure containerized applications. 
+
             - Bullet point
             - Bullet point
       - role: Senior Software Engineer
